@@ -1,36 +1,34 @@
 import StarBackground from "../src/components/StarBackground";
 import ThemeToggle from "../src/components/ThemeToggle";
 import Navbar from "../src/components/Navbar";
+import HomeSection from "../src/components/HomeSection";
+import AboutSection from "../src/components/AboutSection";
 
+const Home = () => {
+  return (
+    <div className="min-h-screen bg-background text-foreground overflow-auto scrollY">
+      {/* Theme Toggle*/}
 
+      <ThemeToggle />
 
-const  Home=()=>{
-    return(
+      {/* Background Effects */}
 
-        <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <StarBackground />
 
-            {/* Theme Toggle*/}
+      {/*  Navbar*/}
 
-            <ThemeToggle/>
+      <Navbar />
 
+      {/* Main Content */}
 
-            {/* Background Effects */}
+      <main>
+        <HomeSection />
+        <AboutSection />
+      </main>
 
-            <StarBackground/>
+      {/* Footer */}
+    </div>
+  );
+};
 
-
-            {/*  Navbar*/}
-
-            <Navbar/>
-
-
-            {/* Main Content */}
-
-
-            {/* Footer */}
-
-        </div>
-    )
-}
-
-export default  Home;
+export default Home;
