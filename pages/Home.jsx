@@ -5,6 +5,8 @@ import HomeSection from "../src/components/HomeSection";
 import AboutSection from "../src/components/AboutSection";
 import SkillsSection from "../src/components/SkillsSection";
 import ProjectsSection from "../src/components/ProjectsSection";
+// import { Contact } from "lucide-react";
+import ContactSection from "../src/components/ContactSection";
 
 const Home = () => {
   return (
@@ -28,6 +30,7 @@ const Home = () => {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
 
       {/* Footer */}
