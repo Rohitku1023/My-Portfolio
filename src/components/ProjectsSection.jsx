@@ -44,9 +44,9 @@ const ProjectsSection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, id) => (
+          {projects.map((project) => (
             <div
-              key={id}
+              key={project.id}
               className="group bg-card rounded-lg shadow-xs overflow-hidden card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -60,7 +60,10 @@ const ProjectsSection = () => {
               <div className="p-6 ">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground ">
+                    <span
+                      key={tag}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground "
+                    >
                       {tag}
                     </span>
                   ))}
