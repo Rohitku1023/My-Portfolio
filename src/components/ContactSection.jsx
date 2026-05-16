@@ -1,4 +1,5 @@
 import {
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -93,14 +94,18 @@ const ContactSection = () => {
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a
-                  href="https://www.linkedin.com/in/rohit-kumar-101223/"
+                  href="https://www.linkedin.com/in/techno-rohit/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Linkedin />
                 </a>
-                <a href="#">
-                  <Twitter />
+                <a
+                  href="https://github.com/Rohitku1023"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Github />
                 </a>
                 <a href="#">
                   <Instagram />

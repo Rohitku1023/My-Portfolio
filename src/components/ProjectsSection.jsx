@@ -3,21 +3,21 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Project 1",
+    title: "Jobby",
     description: "Description of project 1",
     image: "/projects/project1.JPG",
     tags: ["React", "JavaScript"],
-    demo: "https://example.com/demo1",
-    github: "#",
+    demo: "https://jobby-apps.netlify.app/",
+    github: "https://github.com/Rohitku1023/Jobby-App",
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "NxtTrendz",
     description: "Description of project 2",
     image: "/projects/project2.JPG",
     tags: ["React", "JavaScript"],
-    demo: "https://example.com/demo1",
-    github: "#",
+    demo: "https://ecommercerk.netlify.app/login",
+    github: "https://github.com/Rohitku1023/Ecommerce",
   },
   {
     id: 3,
